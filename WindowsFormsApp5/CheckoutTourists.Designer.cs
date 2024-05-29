@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CheckoutTourists));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -57,6 +58,7 @@
             this.ClientSize = new System.Drawing.Size(437, 309);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.dataGridView1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CheckoutTourists";
             this.Text = "CheckoutTourists";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.nam = new System.Windows.Forms.TextBox();
             this.sur = new System.Windows.Forms.TextBox();
             this.log = new System.Windows.Forms.TextBox();
@@ -211,9 +212,10 @@
             this.Controls.Add(this.sur);
             this.Controls.Add(this.nam);
             this.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form3";
-            this.Text = "Form3";
+            this.Text = "Register";
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

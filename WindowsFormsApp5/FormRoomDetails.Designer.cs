@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormRoomDetails));
             this.dataGridViewBookedDates = new System.Windows.Forms.DataGridView();
             this.lblFriends = new System.Windows.Forms.Label();
             this.txtFriendLogin = new System.Windows.Forms.TextBox();
@@ -49,7 +50,7 @@
             // 
             this.dataGridViewBookedDates.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewBookedDates.Location = new System.Drawing.Point(16, 254);
-            this.dataGridViewBookedDates.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridViewBookedDates.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridViewBookedDates.Name = "dataGridViewBookedDates";
             this.dataGridViewBookedDates.Size = new System.Drawing.Size(402, 254);
             this.dataGridViewBookedDates.TabIndex = 0;
@@ -68,7 +69,7 @@
             // txtFriendLogin
             // 
             this.txtFriendLogin.Location = new System.Drawing.Point(13, 705);
-            this.txtFriendLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtFriendLogin.Margin = new System.Windows.Forms.Padding(4);
             this.txtFriendLogin.Name = "txtFriendLogin";
             this.txtFriendLogin.Size = new System.Drawing.Size(132, 23);
             this.txtFriendLogin.TabIndex = 2;
@@ -76,7 +77,7 @@
             // dateTimePickerCheckout
             // 
             this.dateTimePickerCheckout.Location = new System.Drawing.Point(254, 640);
-            this.dateTimePickerCheckout.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePickerCheckout.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePickerCheckout.Name = "dateTimePickerCheckout";
             this.dateTimePickerCheckout.Size = new System.Drawing.Size(164, 23);
             this.dateTimePickerCheckout.TabIndex = 3;
@@ -84,7 +85,7 @@
             // dateTimePickerCheckin
             // 
             this.dateTimePickerCheckin.Location = new System.Drawing.Point(254, 574);
-            this.dateTimePickerCheckin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePickerCheckin.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePickerCheckin.Name = "dateTimePickerCheckin";
             this.dateTimePickerCheckin.Size = new System.Drawing.Size(164, 23);
             this.dateTimePickerCheckin.TabIndex = 4;
@@ -94,7 +95,7 @@
             this.btnAddFriend.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnAddFriend.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddFriend.Location = new System.Drawing.Point(13, 736);
-            this.btnAddFriend.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAddFriend.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddFriend.Name = "btnAddFriend";
             this.btnAddFriend.Size = new System.Drawing.Size(132, 30);
             this.btnAddFriend.TabIndex = 5;
@@ -107,7 +108,7 @@
             this.btnBookRoom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnBookRoom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBookRoom.Location = new System.Drawing.Point(318, 733);
-            this.btnBookRoom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBookRoom.Margin = new System.Windows.Forms.Padding(4);
             this.btnBookRoom.Name = "btnBookRoom";
             this.btnBookRoom.Size = new System.Drawing.Size(100, 30);
             this.btnBookRoom.TabIndex = 6;
@@ -190,7 +191,8 @@
             this.Controls.Add(this.lblFriends);
             this.Controls.Add(this.dataGridViewBookedDates);
             this.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormRoomDetails";
             this.Text = "FormRoomDetails";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewBookedDates)).EndInit();
